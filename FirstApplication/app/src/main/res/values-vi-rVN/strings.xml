@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ứng dụng đầu tiên</string>
+    <string name="button_txt">Bấm vào tôi!</string>
+    <string name="button_clicked_txt">Nút đã được bấm!</string>
+</resources>
