@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BuildUIWithLayoutEditor</string>
+    <string name="top_right_txt">TopRight</string>
+    <string name="top_left_txt">TopLeft</string>
+    <string name="bottom_right_txt">BottomRight</string>
+    <string name="bottom_left_txt">BottomLeft</string>
+    <string name="above_txt">Hello There!</string>
+    <string name="img_des">Avatar</string>
+</resources>
