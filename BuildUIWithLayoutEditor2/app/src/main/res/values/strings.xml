@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BuildUIWithLayoutEditor2</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="lastname">Last name</string>
+    <string name="firstname">First name</string>
+    <string name="jobtile">Jobtile</string>
+    <string name="info">Info</string>
+    <string name="imgDes">des</string>
+</resources>
