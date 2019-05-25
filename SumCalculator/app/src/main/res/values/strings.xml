@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SumCalculator</string>
+    <string name="plus_sign">+</string>
+    <string name="enter_text">Enter your numbers below:</string>
+    <string name="button">Calculate the sum </string>
+    <string name="hint"> </string>
+    <string name="result">Your sum is: </string>
+
+</resources>
