@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BuildYourFirstApp</string>
+    <string name="edit_text">Enter a message</string>
+    <string name="button_text">Send</string>
+    <string name="text_view">Text</string>
+    <string name="autofill_hint"></string>
+</resources>
