@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent" android:paddingTop="8dp"
+                                             android:clickable="true">
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp" tools:srcCompat="@tools:sample/avatars"
+            android:id="@+id/imageView" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+            android:layout_marginBottom="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            android:layout_marginStart="8dp" android:id="@+id/linearLayout" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent">
+        <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/addressTextView"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/phoneTextView"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/emailTextView"/>
+    </LinearLayout>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTextView" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" android:layout_margin="8dp" android:padding="8dp"/>
+    <TextView
+            android:text="Website:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/webTextView" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textTextView" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/webLink" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/webTextView" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="12dp" android:autoLink="web" android:linksClickable="true"/>
+    <TextView
+            android:text="Location:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/webLink"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationLink" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/locationTextView" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="12dp"
+    />
+    <TextView
+            android:text="Show on map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/goToMapTextView" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/locationLink" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="12dp" android:textColor="@color/colorAccent"/>
+
+</android.support.constraint.ConstraintLayout>
